@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codecademy</title>
+
+
+    <!-- Icon Scout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/globalstyles.css">
+    <link rel="stylesheet" href="css/fire.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+</head>
+
+<body>
+    <div class="content">
+
+        <!-- LOGO -->
+        <div class="logo-wrapper">
+            <img class="logo" src="/assets/video/logo-codecademy.gif" alt="">
+            <p>By ZNS</p>
+        </div>
+        <!-- END OF LOGO -->
+
+        <!-- LINKS -->
+        <div class="links-wrapper">
+            <div class="mac-window">
+                <img src="/assets/svg/mac-traffic.svg" alt="">
+            </div>
+            <div class="button-wrapper">
+                <a href="https://www.instagram.com/zakbeebat/" class="button" target="_blank">
+                    <i class="uil uil-instagram"></i>
+                    Zaki's Instagram
+                </a>
+                <a href="https://www.instagram.com/nafilanurainii/" class="button" target="_blank">
+                    <i class="uil uil-instagram"></i>
+                    Nafila's Instagram
+                </a>
+                <a href="https://www.instagram.com/qan.08/" class="button" target="_blank">
+                    <i class="uil uil-instagram"></i>
+                    Salma's Instagram
+                </a>
+                <p>Interesting?, Click the Button Below</p>
+                <a id="myBtn" class="button">Join Us Now!</a>
+            </div>
+        </div>
+        <!-- END OF LINKS -->
+
+
+        <!-- SOURCE CODE LINK -->
+        <div class="link-source-code">
+            <p>Wanna See The Source Code? <span><a href="https://www.zakihidayat.com" target="_blank">Click Me</a></span></p>
+        </div>
+        <!-- END OF SOURCE CODE LINK -->
+
+
+        <!-- MODAL -->
+        <div id="myModal" class="form-modal">
+            <div class="form-modal-wrapper">
+                <div class="mac-window-modal">
+                    <img src="/assets/svg/mac-traffic.svg" alt="">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="form-wrapper">
+                    <p class="title-form">Fill The Form</p>
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfNHCpbA_K8PSCOfHKK7ncfaFqh5wtZxrLUEL5I-pgYRL0G2w/formResponse">
+                        <input class="form-input" type="text" name="entry.2055369064" placeholder="Your Name">
+                        <input class="form-input" type="number" name="entry.1411451949" placeholder="Grade">
+                        <input class="form-input" type="number" name="entry.1885870952" placeholder="Age">
+                        <input class="form-input" type="email" name="entry.469937846" placeholder="Email">
+                        <p>Are you sure you want to take this course?<br>if yes, click the button below</p>
+                        <input class="button-send" type="submit" value="Send Now" formtarget="_parent">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- END OF MODAL -->
+
+    </div>
+
+    <!-- PreLoading -->
+    <div id="loading">
+        <img id="loading-image" src="/assets/video/logo-codecademy.gif" alt="">
+      </div>
+    <!-- End Preloading -->
+
+
+    <!-- Preloading JS -->
+    <script src="/js/preloading.js"></script>
+    <script src="/js/jquery.js"></script>
+
+    <script>
+        $(window).on('load', function () {
+          $('#loading').fadeToggle();
+        }) 
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+  <!-- https://docs.google.com/forms/d/e/1FAIpQLSfNHCpbA_K8PSCOfHKK7ncfaFqh5wtZxrLUEL5I-pgYRL0G2w/formResponse
+
+  entry.2055369064=id-form-name
+  entry.1411451949=id-form-grade
+  entry.1885870952=id-form-age
+  entry.469937846=id-form-email -->

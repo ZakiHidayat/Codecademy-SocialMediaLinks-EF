@@ -140,6 +140,7 @@
 .link-source-code span a{
     color: var(--color-blue);
     font-family: "whyte-light";
+    text-decoration: underline;
 }
 /* END OF LINKS */
 

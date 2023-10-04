@@ -80,6 +80,6 @@ body {
     z-index: 100;
     overflow: visible;
     background: var(--color-bg) url('/assets/video/logo-codecademy.gif') no-repeat center center;
-    background-size: 60%;
+    background-size: 55vw;
 }
 /* ======= END PRELOADING ======= */

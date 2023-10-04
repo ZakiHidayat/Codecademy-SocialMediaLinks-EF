@@ -73,26 +73,13 @@ body {
 }
 
 /* ======= PRELOADING ======= */
-#loading {
+  #loader {
     position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100vh;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    background-color: var(--color-bg);
-    z-index: 1000;
-  }
-  
-  #loading-image {
-    z-index: 3000;
-    width: 60%;
-    height: 80px;
-    object-fit:scale-down;
-    pointer-events: none;
-    object-fit: contain;
-  }
+    z-index: 100;
+    overflow: visible;
+    background: var(--color-bg) url('/assets/video/logo-codecademy.gif') no-repeat center center;
+    background-size: 60%;
+}
 /* ======= END PRELOADING ======= */
